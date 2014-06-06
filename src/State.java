@@ -2,6 +2,7 @@
  * Created by Rezonance on 5.06.2014.
  */
 public class State {
+    // This class holds all the necessary information for every hex.
     private boolean checked;
     private int color;
     private int x;

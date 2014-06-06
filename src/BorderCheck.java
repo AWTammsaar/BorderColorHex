@@ -5,6 +5,8 @@ import java.util.List;
  * Created by Rezonance on 5.06.2014.
  */
 public class BorderCheck {
+    /* Since the assignment had me checking between the borders of a hexagonal board,
+    even lines had different neighbouring directions */
     public static final int[][] legalmove1 = new int[][]{
             {1, 0},
             {1, 1},
